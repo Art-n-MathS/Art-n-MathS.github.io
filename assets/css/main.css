@@ -218,6 +218,7 @@
 /* Grid */
 
 	.row {
+
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
@@ -3969,3 +3970,28 @@
 p + ul {
     margin-top: -10px;
 }
+
+
+/* Set the section to fill the viewport height and use Flexbox to center the content */
+.map-section {
+	display: flex;
+	justify-content: center; /* Centers the map horizontally */
+	align-items: center; /* Centers the map vertically */
+	background-color: #f0f0f0; /* Optional: add a background to distinguish the section */
+	margin: 0; /* Removes any margin that may push content down */
+  }
+  
+  /* Ensure the map container adapts responsively */
+  .map-container {
+	display: flex;
+	justify-content: center; /* Centers the iframe horizontally */
+	align-items: center; /* Centers the iframe vertically if needed */
+	width: 100%;
+  }
+  
+  /* Ensure the iframe is responsive */
+  .map-container iframe {
+	max-width: 100%; /* Prevents the iframe from exceeding the container width */
+  }
+
+  
