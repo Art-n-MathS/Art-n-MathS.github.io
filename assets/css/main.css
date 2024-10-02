@@ -1816,33 +1816,45 @@
 		border-bottom-color: #006400;
 	}
 
-/* Box */
+/* Box with a border */
+.box {
+    border-radius: 0;
+    border: solid 1px;
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border-color: #006400;
+}
 
-	.box {
-		border-radius: 0;
-		border: solid 1px;
-		margin-bottom: 2em;
-		padding: 1.5em;
-		border-color: #006400;
-	}
+/* Box without a border */
+.box.no-border {
+    border: none; /* No border */
+    padding: 1.5em; /* Keep padding consistent */
+}
 
-		.box > :last-child,
-		.box > :last-child > :last-child,
-		.box > :last-child > :last-child > :last-child {
-			margin-bottom: 0;
-		}
+/* Ensure margins reset for last children */
+.box > :last-child,
+.box > :last-child > :last-child,
+.box > :last-child > :last-child > :last-child {
+    margin-bottom: 0;
+}
 
-		.box.alt {
-			border: 0;
-			border-radius: 0;
-			padding: 0;
-		}
-		@media (max-width: 768px) {
-			.box {
-				padding: 1em; /* Reduce padding on smaller screens */
-				margin-bottom: 1em; /* Reduce margin to make it more compact */
-			}
-		}
+/* Alternate box style (no border and no padding) */
+.box.alt {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .box {
+        padding: 1em; /* Reduce padding on smaller screens */
+        margin-bottom: 1em; /* Reduce margin to make it more compact */
+    }
+    .box.no-border {
+        padding: 1em; /* Keep reduced padding for the no-border version */
+    }
+}
 
 /* Button */
 
@@ -4002,9 +4014,7 @@ p + ul {
   }
 
   
-
-
-  /* Add a container for the boxes */
+/* Add a container for the boxes */
 .box-personProfile {
 	
 	display: flex; /* Flexbox for responsive layout */
@@ -4036,7 +4046,6 @@ p + ul {
 		margin: 10px 0; /* Optional: Adjust margin for mobile */
 	}
 }
-
 
 * Floats the row to the left */
 .float-left {
