@@ -239,6 +239,9 @@
 		height: 0;
 	}
 
+	justify-content: center; /* Centers the iframe horizontally */
+	align-items: center; /* Centers the iframe vertically if needed */
+
 	.row.uniform > * > :first-child {
 		margin-top: 0;
 	}
@@ -1820,6 +1823,7 @@
 		border: solid 1px;
 		margin-bottom: 2em;
 		padding: 1.5em;
+		border-color: #006400;
 	}
 
 		.box > :last-child,
@@ -1833,10 +1837,12 @@
 			border-radius: 0;
 			padding: 0;
 		}
-
-	.box {
-		border-color: #006400;
-	}
+		@media (max-width: 768px) {
+			.box {
+				padding: 1em; /* Reduce padding on smaller screens */
+				margin-bottom: 1em; /* Reduce margin to make it more compact */
+			}
+		}
 
 /* Button */
 
@@ -3992,6 +3998,65 @@ p + ul {
   /* Ensure the iframe is responsive */
   .map-container iframe {
 	max-width: 100%; /* Prevents the iframe from exceeding the container width */
+
   }
 
   
+
+
+  /* Add a container for the boxes */
+.box-personProfile {
+	
+	display: flex; /* Flexbox for responsive layout */
+	flex-wrap: wrap; /* Allow wrapping of boxes */
+	justify-content: center; /* Center the boxes */
+	margin: 0 auto; /* Center the container on the page */
+	max-width: 1200px; /* Set max width for large screens */
+	padding: 0 1em; /* Add some padding around the container */
+}
+
+/* Make each box responsive */
+.box-personProfile .box {
+	flex: 1 1 calc(25% - 20px); /* Four boxes per row on larger screens, with some spacing */
+	margin: 10px; /* Spacing between boxes */
+	box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+/* Responsive design: Adjust to two boxes per row on smaller screens (like tablets) */
+@media (max-width: 768px) {
+	.box-personProfile .box {
+		flex: 1 1 calc(50% - 20px); /* Two boxes per row */
+	}
+}
+
+/* Responsive design: Adjust to one box per row on mobile phones */
+@media (max-width: 480px) {
+	.box-personProfile .box {
+		flex: 1 1 100%; /* One box per row */
+		margin: 10px 0; /* Optional: Adjust margin for mobile */
+	}
+}
+
+
+* Floats the row to the left */
+.float-left {
+    float: left;
+    width: 100%; /* Adjust the width of the row */
+    margin: 0;
+}
+
+/* Centers the row on the page */
+.center {
+    float: none; /* Cancel float */
+    display: block; /* Ensure it behaves as a block element */
+    margin: 0 auto; /* Center the row */
+    text-align: center; /* Optional: center-align the contents inside the row */
+    width: auto; /* Adjust width as needed */
+}
+
+/* Clear fix for floating issues */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
