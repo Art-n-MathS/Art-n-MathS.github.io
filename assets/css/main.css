@@ -1984,7 +1984,7 @@
 		input[type="button"].alt,
 		button.alt,
 		.button.alt {
-			background: #497e49;
+			background: #318d31;
 			box-shadow: inset 0 0 0 2px #006400;
 			color: #ffffff !important;
 		}
@@ -4036,6 +4036,7 @@ p + ul {
 	background-color: #edffee; /* Set background color to light green */
 	display: flex; /* Enable flexbox to make content fill available space */
 	flex-direction: column; /* Align elements in column direction */
+	border: 2px solid #006400;
 }
 
 /* Make the content inside the box fill the available space */
@@ -4049,6 +4050,8 @@ p + ul {
 /* Box with white background */
 .box-personProfile .box.white-bg {
 	background-color: white; /* Set background color to white */
+	border: 2px solid #ffffff;
+
 }
 
 /* Responsive design: Adjust to two boxes per row on smaller screens (like tablets) */
