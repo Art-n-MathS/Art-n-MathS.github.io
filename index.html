@@ -1,161 +1,852 @@
-<!DOCTYPE HTML>
-<!--
-	Introspect by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-	<head>
-		<title>Dr Milto Miltiadou</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-	</head>
-	<body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Dr Miltiadou's R&D lab</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/small_logo.jpg" rel="icon">
+  <link href="assets/img/small_logo.jpg" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Clinic
+  * Template URL: https://bootstrapmade.com/clinic-bootstrap-template/
+  * Updated: Jul 23 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">
+
+    <div class="topbar d-flex align-items-center dark-background">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="d-flex align-items-center"><a href="index.html">Dr Miltiadou's R&D lab at University of Exeter, UK</a></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="https://experts.exeter.ac.uk/43484-milto-miltiadou/" class="website"><i class="bi bi-globe"></i></a>
+          <a href="https://bsky.app/profile/drmiltiadou.bsky.social" class="bluesky"><i class="bi bi-bluesky"></i></a>
+          <a href="https://github.com/Art-n-MathS/" class="github"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/milto-miltiadou" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-cente">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/img/Logo_text.jpg" alt="">
+          <h1 class="sitename"></h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="People1.html">People</a></li>
+            <li class="dropdown"><a href="Projects.html" ><span>Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>                
+                <li><a href="Projects.html">All Projects</a></li>
+                <li><a href="https://cordis.europa.eu/project/id/101206950">ForestFireAI</a></li>
+                <li><a href="prGreenSight.html">GreenSight</a></li>
+                <li><a href="prASTARTE.html">ASTARTE</a></li>
+                <li><a href="prFOREST.html">FOREST</a></li>
+                <li><a href="prEngD.html">EngD</a></li>
+                <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li> --> <!-- For future past projects -->
+              </ul>
+            </li>            
+            <li class="dropdown"><a href="Tools.html"><span>Tools</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>                
+                    <li><a href="Tools.html#PlotToSat-brief">PlotToSat</a></li>
+                    <li><a href="Tools.html#DASOS-brief">DASOS</a></li>
+                </ul>
+            <li><a href="Papers.html">Papers</a></li>
+            <li class="dropdown" ><a href="News.html"><span>News</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>                
+                    <li><a href="News.html">2025</a></li>
+                </ul>
+            <li><a href="contact.html" >Join</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title">
+      <nav class="breadcrumbs">
+        <div class="container">
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+
+
+    <!-- Service Details 2 Section (Part 1)-->
+    <section id="service-details-2" class="service-details-2 section" style="background-color: white;">
+      
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-8 mx-auto text-center mb-5" data-aos="fade-up" data-aos-delay="150">
+            <div class="service-header">
+              <h1>Advancement of Earth Observation Algorithms for Forest Monitoring</h1>
+              <p class="lead"><strong>DASOS' Vision</strong> is a multi-disciplinary R&D upcoming lab at the University of Exeter, UK. We develop scalable & transferable solutions for better monitoring forest ecosystems.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row gy-4 align-items-top">
+
+          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+            <div class="service-details">
+
+              <div class="detail-item">
+                <div class="icon-wrapper">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <div class="content">
+                  <h4>Environmental Intelligence</h4>
+                  <p>We develop robust, interpretable, and scalable methods to improve forest monitoring. </p>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="icon-wrapper">
+                  <i class="fa-solid fa-globe-europe"></i> 
+                </div>
+                <div class="content">
+                  <h4>Earth Observation</h4>
+                  <p>We make large Earth Observation datasets more accessible for research and decision-making.</p>
+                </div>
+              </div>
+              
+              <div class="detail-item">
+                <div class="icon-wrapper">
+                  <i class="bi bi-tree-fill"></i>
+                </div>
+                <div class="content">
+                  <h4>Forest Ecology</h4>
+                  <p>We study forest structure, composition, and health.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+            <div class="service-visual">
+              <img src="assets/img/bg/banner2.jpg" alt="Neurology Services" class="img-fluid">
+              <div class="visual-overlay">
+                <div class="stats-card">
+                  <div class="stat">
+                    <span class="number">763249.92 <small>EUR</small></span>
+                    <span class="label">Funding Received</span>
+                  </div>
+                  <div class="stat">
+                    <span class="number">3</span>
+                    <span class="label">Active Collaborations</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details 2 Section -->
+
+    <!-- Home About Section -->
+    <section id="home-about" class="home-about section" style="background-color: #EDFDED;">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-visual">
+              <div class="main-image">
+                  <img src="assets/img/projects/EngD.jpg" alt="Modern medical facility" class="img-fluid" style="border: 3px solid #99cc8aa6; border-radius: 8px;">
+              </div>
+              <!-- <div class="floating-card">
+                <div class="card-content">
+                  <div class="icon">
+                    <i class="bi bi-heart-pulse"></i>
+                  </div>
+                  <div class="card-text">
+                    <h4>24/7 Emergency Care</h4>
+                    <p>Always here when you need us most</p>
+                  </div>
+                </div>
+              </div>
+              <div class="experience-badge">
+                <div class="badge-content">
+                  <span class="years">25+</span>
+                  <span class="text">Years of Trusted Care</span>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
+            <div class="about-content">
+              <h2 class="section-heading">Research Interests</h2>
+                <ul>
+                  <li>Development of scalable algorithms for processing large-scale Earth Observation (EO) and LiDAR datasets</li>
+                  <li>3D forest structure modelling and analysis, including voxel-based LiDAR representations and cross-sensor structural harmonisation</li>
+                  <li>Feature engineering and representation learning from EO and LiDAR data to support robust, interpretable machine learning models</li>
+                  <li>Advanced machine learning applications for forest monitoring, spanning classification, regression, anomaly detection, and change analysis</li>
+                  <li>Phenological analysis using multi-sensor EO time-series, with particular emphasis on Synthetic Aperture Radar (SAR)</li>
+                </ul>
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"></div>
+                  <div class="stat-label">Funded Projects</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"></div>
+                  <div class="stat-label">Active Collaborators</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"></div>
+                  <div class="stat-label">Alumni</div>
+                </div>
+              </div>
+            
+              <div class="cta-section">
+                <a href="Projects.html" class="btn-primary">Learn More About <strong>DASOS' Vision</strong>'s Projects</a>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+
+      </div>
+      
+    </section><!-- /Home About Section -->
+
+
+<!-- Tools Section -->
+<section id="featured-services" class="featured-services section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Tools</h2>
+    <p>Explore the open-source tools developed by our research group.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-4"> <!-- Row for columns with spacing -->
+
+      <!-- Service 1 -->
+      <div class="col-lg-6 col-md-6" data-aos="fade-left" data-aos-delay="300">
+        <div class="service-item d-flex align-items-start" data-aos="fade-up" data-aos-delay="400">
+          <!-- Image: 1/4 width -->
+          <div class="me-3" style="flex: 0 0 25%;">
+            <img src="assets/img/index/PlotToSat.jpg" alt="PlotToSat" class="img-fluid rounded">
+          </div>
+          <!-- Text: 3/4 width -->
+          <div class="service-info" style="flex: 1;">
+            <h4>PlotToSat</h4>
+            <p>Efficient extraction of Sentinel-1 and Sentinel-2 time series across multiple regions, processed on the Google Earth Engine cloud platform.</p>
+            <a href="Tools.html#PlotToSat-brief" class="service-link">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="col-lg-6 col-md-6" data-aos="fade-left" data-aos-delay="400">
+        <div class="service-item d-flex align-items-start" data-aos="fade-up" data-aos-delay="500">
+          <!-- Image: 1/4 width -->
+          <div class="me-3" style="flex: 0 0 25%;">
+            <img src="assets/img/papers/alignment.jpg" alt="DASOS" class="img-fluid rounded">
+          </div>
+          <!-- Text: 3/4 width -->
+          <div class="service-info" style="flex: 1;">
+            <h4>DASOS</h4>
+            <p>Extraction of structural features from 3D windows and 2D metrics, and creation of 3D polygonal meshes from rasterised LiDAR data to tackle uneven point density.</p>
+            <a href="Tools.html#DASOS-brief" class="service-link">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- End row -->
+  </div> <!-- End container -->
+
+</section> <!-- /Tools Section -->
+
+
+
+
+    <!-- Featured Departments Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Featured Papers</h2>
+        <p>Highlighting the latest and most impactful studies, carefully chosen for their significance and insight.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item">
+              <div class="service-image">
+                <img src="assets/img/papers/PlotToSatDiagram.jpg" alt="PlotToSat Paper" class="img-fluid">
+              </div>
+              <div class="service-content">
+                <h3>PlotToSat: A tool for generating time-series signatures from Sentinel-1 and Sentinel-2 at field-based plots for machine learning applications</h3>
+                
+                <ul class="specialty-features">
+                  <li>PlotToSat automates the extraction of Sentinel-1 and Sentinel-2 time-series signatures at multiple regions.</li>
+                  <li>PlotToSat is designed to be user-friendly, with clear documentation and examples.</li>
+                  <li>Its first application is tree genera classifications. More <a href="https://ieeexplore.ieee.org/abstract/document/10641135">here</a>.</li>
+                </ul>
+
+                <div class="service-features">
+                  <span class="feature-item"><i class="fas fa-check"></i> Time-series</span>
+                  <span class="feature-item"><i class="fas fa-check"></i> Google Earth Engine</span>
+                </div>
+                <a href="https://www.sciencedirect.com/science/article/pii/S1364815225000799" class="service-btn">
+                  <span>Learn More</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+            <div class="service-item">
+              <div class="service-image">
+                <img src="assets/img/papers/DeadTrees.jpg" alt="Dead Trees paper" class="img-fluid">
+              </div>
+              <div class="service-content">
+                <h3>Detection of Dead Standing Eucalyptus camaldulensis without Tree Delineation for Managing Biodiversity in Native Australian Forest</h3>
+                <ul class="specialty-features">
+                  <li> It is possible to detect dead standing trees without tree delineation using object detection approaches</li>
+                  <li> The most important feature for detecting dead standing trees is the standard deviation of heights.</li>
+                  <li> Multi-scale windows improves detection in native Eucalypt forest as shown 
+                    <a href="https://www.mdpi.com/1999-4907/11/2/161">here</a>
+                  </li>
+                </ul>
+                <div class="service-features">
+                  <span class="feature-item"><i class="fas fa-check"></i> LiDAR</span>
+                  <span class="feature-item"><i class="fas fa-check"></i> Object Detection</span>
+                  <span class="feature-item"><i class="fas fa-check"></i> Biodiversity</span>
+                </div>
+                <a href="https://www.sciencedirect.com/science/article/pii/S0303243418300485" class="service-btn">
+                  <span>Learn More</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+            <div class="service-item">
+              <div class="service-image">
+                <img src="assets/img/papers/SARtimes.jpg" alt="Dead Trees paper" class="img-fluid">
+              </div>
+              <div class="service-content">
+                <h3>Time-series SAR data analysis for finding the drivers causing phenological changes in Paphos Forest, Cyprus</h3>
+                <ul class="specialty-features">
+                    <li>In 2018, the warmer spring was associated with a delayed summer peak, coinciding with the leafing period of <i>Pinus brutia</i>.</li>
+                    <li>After the extended drought of winter 2015–16, the average backscatter coefficient dropped. </li>
+                    <li>Cold autumn temperatures kill <i>Thaumetopoea pityocampa</i>, which feeds annually on pine needles. A cold November was associated with a change in the SAR annual phenology. </li>
+                </ul>
+                <div class="service-features">
+                  <span class="feature-item"><i class="fas fa-check"></i> time-series</span>
+                  <span class="feature-item"><i class="fas fa-check"></i> SAR</span>
+                  <span class="feature-item"><i class="fas fa-check"></i> phenology</span>
+                </div>
+                <a href="https://www.mdpi.com/2072-4292/14/15/3581" class="service-btn">
+                  <span>Learn More</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+          
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Departments Section -->
+
+
+    
+    
+    <!-- Featured News Section -->
+    <section id="featured-services" class="featured-services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Featured News</h2>
+        <p>Key stories and milestones from our lab.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
+            <div class="featured-service-main">
+              <div class="service-image-wrapper">
+                <img src="assets/img/news/Ml4EO2026.jpg" alt="Premier Healthcare Services" class="img-fluid" loading="lazy">
+                
+              </div>
+              <div class="service-details">
+                <h2>Machine Learning for Earth Observation Conference 2026 - Keep the date</h2>
+                <p>The 4th Machine Learning for Earth Observation (ML4EO) conference will take place on the 22nd-24th June 2026. ML4EO is organised annually by the <a href="https://www.exeter.ac.uk/research/centres/environmental-intelligence/about/"> Centre for Environmental Intelligence<a>, University of Exeter. Last year we had around 140 participants. Dr Milto Miltiadou is co-chairing the conferences. More information about ML4EO are available <a href="https://ml4eo.org/">here.</p>
+                <a href="News.html" class="main-cta">Check out our News Archive</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-left" data-aos-delay="200" >
+            <div class="services-sidebar">
+
+              <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-icon-wrapper">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <div class="service-info">
+                  <h4>12/12/2025</h4>
+                  <p>Graduation Time</p>
+                  <a href="News.html#graduation2025" class="service-link">Learn More</a>
+                </div>
+              </div>
+
+              <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-icon-wrapper">
+                  <i class="bi bi-graph-up"></i>
+                </div>
+                <div class="service-info">
+                  <h4>13/11/2025</h4>
+                  <p>PlotToSat Workshop for ForestSAT conference.</p>
+                  <a href="News.html#PSTWorkshop2025" class="service-link">Learn More</a>
+                </div>
+              </div>
+
+              
+
+
+              <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-icon-wrapper">
+                  <i class="bi bi-globe"></i>
+                </div>
+                <div class="service-info">
+                  <h4>18/10/2025</h4>
+                  <p>ML4EO conference - Keep the date.</p>
+                  <a href="News.html#ml4eo_keep_date" class="service-link">Learn More</a>
+                </div>
+              </div>
+
+              
+            </div>
+          </div>
+
+        </div>
+
+      
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Featured News Section -->
+
+
+
+    <!-- Featured Testimonials Section -->
+    <section id="featured-testimonials" class="featured-testimonials section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Wondering what it’s like to be part of <strong>DASOS' Vision</strong>'s group? Read testimonials from members and alumni.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="testimonials-14 swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": 3,
+              "spaceBetween": 24,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 16
+                },
+                "768": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 24
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 24
+                }
+              }
+            }
+          </script>
+
+          <div class="swiper-wrapper">
+
+            <!-- Testimonial Item 1 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p>  Your supervision has been genuinely exceptional and I feel very lucky to have chosen a project with you.  You have often drawn detailed diagrams and explained things clearly and in a direct and unpretentious way that has made things make sense. You’ve gone out of your way to share opportunities, make connections, and support us with advice and encouragement.</p>
+                <!-- <div class="profile">
+                  <img src="assets/img/person/person-m-9.webp" class="testimonial-img" alt="" loading="lazy">
+                  <div class="info">
+                    <h4>Marcus Chen <i class="bi bi-patch-check-fill"></i></h4>
+                    <span>@marcuschen</span>
+                  </div>
+                </div> -->
+              </div>
+            </div><!-- End testimonial item -->
+
+            <!-- Testimonial Item 2 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p>Milto is an incredible supervisor. Meeting are always incredibly useful, where I always leave more well informed and way more motivated than when I first entered. It is clear to me that Milto really cares about the success and development of her students. Throughout this whole experience, I’ve felt and still do feel really well supported.</p>
+                <!-- <div class="profile">
+                  <img src="assets/img/person/person-f-5.webp" class="testimonial-img" alt="" loading="lazy">
+                  <div class="info">
+                    <h4>Sarah Mitchell <i class="bi bi-patch-check-fill"></i></h4>
+                    <span>@sarahmitch</span>
+                  </div>
+                </div> -->
+              </div>
+            </div><!-- End testimonial item -->
+
+    
+
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Testimonials Section -->
+
+
+    <!-- Service Details 2 Section (Part 2)-->
+    <section id="service-details-2" class="service-details-2 section" style="background-color: white;">
+      
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
         
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="index.html" class="logo">Dr Milto Miltiadou</a>
-					<nav id="nav">
-						<a href="index.html">Home</a>
-                        <!--<a href="People.html">People</a>-->
-                        <a href="Projects1.html">Projects</a>
-                        <a href="puplications.html">Publications</a>
-                        
-                        <a href="contact.html">Join</a>
-				    <!--    <a href="generic.html">Generic</a>
-						<a href="elements.html">Elements</a>
-						<a href="CV.html">Experience</a>
-                        <a href="Interests.html">Interests</a>
-                    -->
-					</nav>
-				</div>
-			</header>
-			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
-		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<h1> <span> <strong> Advancement of Earth Observation Algorithms for Forest Monitoring</strong> </span></h1>
-					<h3> <span> Full-waveform LiDAR & time-series of multi-sensory data</span></h3>
-				</div>
-			</section>
+        <!-- <div class="row gy-4 mt-5">
 
-		<!-- One -->
-			<section id="one">
-				<div class="inner"> 
-					<header>
-						<h2>Introduction</h2>
-					</header>
-					<p style="text-align: justify;">
-						<br>I am a lecturer in Computer Science at University of Exeter, UK. My research focuses on unlocking the potential of Earth Observation data, including time-series and LiDAR, by advancing algorithms, optimising processing pipelines, and implementing tools for forest monitoring. So far, I have implemented two versatile tools for generating feature vectors for machine learning applications: DASOS (https://github.com/Art-n-MathS/DASOS), included in the GitHub Arctic Vault, manages both full-waveform and discrete LiDAR and addresses variations in point cloud density; and PlotToSat (https://github.com/Art-n-MathS/PlotToSat) offers a practical, time-efficient way to extract time-series from multi-source EO data across numerous plot regions spread across a landscape. In previous work, I introduced extraction of structural elements from 3D-Windows for detecting dead standing Eucalypt trees without tree delineation in low density LiDAR data. I also proposed a new category of data structures, integral trees, for efficient LiDAR data management during 3D polygonal model creation. Additionally, I showed that the SAR phenological cycle of the Paphos forest in Cyprus contains two peaks: the summer peak is associated with pine needle regeneration, and a February trough is potentially linked to the activity of the pityocampa pest.<h4>Research Interests</h4>
-						<ul>
-							<li>Creating and exploiting time-series of multi-source Earth Observation (EO) data</li>
-							<li>Optimising and advancing algorithms for processing and handling large-scale EO and LiDAR datasets</li>
-							<li>Generating feature vectors from EO and LiDAR data for use in machine learning models</li>
-							<li>Machine learning applications and advancements for forest monitoring</li>
-							<li>3D structural analysis and harmonisation of LiDAR data</li>
-							<li>Phenology of multi-source EO data with particular interest in Synthetic Aperture Radar (SAR)</li>
-						</ul>
-						<br>If you would like to collaborate, please  <a href="mailto:m.miltiadou@exeter.ac.uk">contact me. </a>
-						<br>For further information about my work, please have a look at my <a href="Projects1.html">projects</a> and <a href="puplications.html"> publications</a>.
-					</p>
-					
-				</div>
-			</section>
+          <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-overview">
+              <div class="row align-items-center">
 
-		<!-- Two -->
-		<!--	<section id="two">
-				<div class="inner">
-					<article>
-						<div class="content">
-							<header>
-								<h3>Pellentesque adipis</h3>
-							</header>
-							<div class="image fit">
-								<img src="images/pic01.jpg" alt="" />
-							</div>
-							<p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
-						</div>
-					</article>
-					<article class="alt">
-						<div class="content">
-							<header>
-								<h3>Morbi interdum mol</h3>
-							</header>
-							<div class="image fit">
-								<img src="images/pic02.jpg" alt="" />
-							</div>
-							<p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
-						</div>
-					</article>
-				</div>
-			</section> 
+                
 
-		<!-- Three -->
-	<!--		<section id="three">
-				<div class="inner">
-					<article>
-						<div class="content">
-							<span class="icon fa-laptop"></span>
-							<header>
-								<h3>Tempus Feugiat</h3>
-							</header>
-							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna lorem ullamcorper laoreet, lectus arcu.</p>
-							<ul class="actions">
-								<li><a href="#" class="button alt">Learn More</a></li>
-							</ul>
-						</div>
-					</article>
-					<article>
-						<div class="content">
-							<span class="icon fa-diamond"></span>
-							<header>
-								<h3>Aliquam Nulla</h3>
-							</header>
-							<p>Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed.</p>
-							<ul class="actions">
-								<li><a href="#" class="button alt">Learn More</a></li>
-							</ul>
-						</div>
-					</article>
-					<article>
-					<div class="content">
-							<span class="icon fa-laptop"></span>
-							<header>
-								<h3>Sed Magna</h3>
-							</header>
-							<p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula.</p>
-							<ul class="actions">
-								<li><a href="#" class="button alt">Learn More</a></li>
-							</ul>
-						</div>
-					</article>
-				</div>
-			</section> 
-        
-		<!-- Footer -->
-			<section id="footer">
-                <div id="copyright">
-			         <div class="container">
-                         <b2>&copy; Dr Milto Miltiadou </b> 
-				            <ul class="icons">
-								<li><a href="https://experts.exeter.ac.uk/43484-milto-miltiadou/" class="icon fa-globe"><span class="label">Twitter</span></a></li>
-								<li><a href="https://bsky.app/profile/drmiltiadou.bsky.social" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://github.com/Art-n-MathS/" class="icon fa-github"><span class="label">Github</span></a></li>
-                                <li><a href="https://www.linkedin.com/in/milto-miltiadou" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				            </ul>
+                  <div class="treatment-areas">
+                    <h4>Research Keywords</h4>
+                    <div class="condition-tags">
+                      <span class="tag">Forest Ecology</span>
+                      <span class="tag">Machine Learning</span>
+                      <span class="tag">Earth Observation</span>
+                      <span class="tag">LiDAR</span>
+                      <span class="tag">SAR</span>
+                      <span class="tag">Time-series</span>
+                      <span class="tag">Data Analysis</span>
+                      <span class="tag">Artificial Intelligence</span>
+                      <span class="tag">Environment</span>
+                      <span class="tag">Sustainability</span>
+                      <span class="tag">Forestry</span>                      
+
                     </div>
-		      </div>
-			</section>
+                  </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+              </div>
+            </div>
+          </div>
 
-	</body>
+        </div> -->
+
+
+
+        <div class="row gy-3 mt-5">
+
+          <div class="col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+            <div class="action-card">
+              <div class="card-header" >
+                <i class="bi bi-tree me-1"></i>                
+                <h4>Projects</h4>
+              </div>
+              <p>Explore our ongoing and completed projects.</p>
+              <div class="card-footer">
+                <a href="Projects.html" class="btn-action">More Info</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+            <div class="action-card">
+              <div class="card-header">
+                <i class="bi bi-people"></i>
+                <h4>People</h4>
+              </div>
+              <p>Meet the researchers, and alumni.</p>
+              <div class="card-footer">
+                <a href="People1.html" class="btn-action">More Info</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+            <div class="action-card">
+              <div class="card-header" >
+                <i class="bi bi-tree me-1"></i>                
+                <h4>Tools</h4>
+              </div>
+              <p>Explore the open-source tools developed by our research group.</p>
+              <div class="card-footer">
+                <a href="Tools.html" class="btn-action">More Info</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+            <div class="action-card">
+              <div class="card-header">
+                <i class="bi bi-file-text"></i>
+                <h4>Join us</h4>
+              </div>
+              <p>Become a member or collaborate.</p>
+              <div class="card-footer">
+                <a href="contact.html" class="btn-action">More Info</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details 2 Section -->
+
+    
+
+  </main>
+
+  <footer id="footer" class="footer-16 footer position-relative">
+
+    <div class="container">
+
+      <div class="footer-main" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-start">
+
+          <div class="col-lg-5">
+            <div class="brand-section">
+              <a href="index.html" class="logo d-flex align-items-center mb-4">
+                <span class="sitename">DASOS' Vision</span>
+              </a>
+              <p class="brand-description">
+                <strong style="color: #ffffff;">D</strong>ata  
+                <strong style="color: #ffffff;">A</strong>nalysis for  
+                <strong style="color: #ffffff;">S</strong>ensor-based 
+                <strong style="color: #ffffff;">O</strong>bservation of 
+                <strong style="color: #ffffff;">S</strong>ilviculture 
+              </p>
+              <div class="contact-info mt-5">
+                <div class="contact-item">
+                  <i class="bi bi-geo-alt"></i>
+                  <span>Kathleen Booth Building, University Of Exeter Campus, Streamham Campus, Exeter EX4 4RN </span>
+                </div>
+                <!-- <div class="contact-item">
+                  <i class="bi bi-telephone"></i>
+                  <span>+1 (555) 987-6543</span>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-envelope"></i>
+                  <span>hello@designstudio.com</span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="footer-nav-wrapper">
+              <div class="row">
+                <div class="col-6 col-lg-3">
+                  <div class="nav-column">
+                    
+                  </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                  <div class="nav-column">
+                    <h6> <a href="Projects.html" style="color: #ffffff;">Projects</a></h6>
+                    <nav class="footer-nav">
+                      <a href="prASTARTE.html">ASTARTE</a>
+                      <a href="prFOREST.html">FOREST</a>
+                      <a href="prGreenSight.html">GreenSight</a>
+                      <a href="https://cordis.europa.eu/project/id/101206950">ForestFireAI</a>
+                      <a href="prEngD.html">EngD</a>
+                    </nav>
+                  </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                  <div class="nav-column">
+                    <h6> <a  href="Tools.html" style="color: #ffffff;">Tools</a></h6>
+                    <nav class="footer-nav">
+                      <a href="https://github.com/Art-n-MathS/PlotToSat">PlotToSat</a>
+                      <a href="https://github.com/Art-n-MathS/DASOS">DASOS</a>
+                    </nav>
+                  </div>
+                </div>
+
+                
+
+                <div class="col-6 col-lg-3">
+                  <div class="nav-column">
+                    <h6> <a href="Join.html" style="color: #ffffff;">Connect</a></h6>
+                    <nav class="footer-nav">
+                      <a href="https://www.linkedin.com/in/milto-miltiadou/">LinkedIn</a>
+                      <a href="https://bsky.app/profile/drmiltiadou.bsky.social">Blue Sky</a>
+                      <a href="https://github.com/Art-n-MathS">Github</a>
+                      <a href="https://www.youtube.com/c/MiltoMiltiadou">YouTube</a>
+                    </nav>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="bottom-content" data-aos="fade-up" data-aos-delay="300">
+          <div class="row align-items-center">
+
+            <div class="col-lg-6">
+              <div class="copyright">
+                <p>© <span class="sitename">DASOS' Vision</span>. All rights reserved.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="legal-links">
+                
+                <div class="credits">
+                  <!-- All the links in the footer should remain intact. -->
+                  <!-- You can delete the links only if you've purchased the pro version. -->
+                  <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                  <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                  Template Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
